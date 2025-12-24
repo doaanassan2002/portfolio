@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/script.js"></script>
+
+    <title>Doaa Nassan - Back-End Developer Portfolio</title>
+  </head>
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler"/>
+    <input type="checkbox" id="day-night"/>
+
+
+    <div class="style__switcher">
+      <label for="toggler" class="style__switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </label>
+
+      <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+
+      <h3 class="style__switcher-title">Theme Colors</h3>
+      
+      <div class="style__switcher-colors">
+        <label for="color-1" class="color-1 color"></label>
+        <label for="color-2" class="color-2 color"></label>
+        <label for="color-3" class="color-3 color"></label>
+        <label for="color-4" class="color-4 color"></label>
+        <label for="color-5" class="color-5 color"></label>
+        <label for="color-6" class="color-6 color"></label>
+        <label for="color-7" class="color-7 color"></label>
+        <label for="color-8" class="color-8 color"></label>
+        <label for="color-9" class="color-9 color"></label>
+        <label for="color-10" class="color-10 color"></label>
+      </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Eng: Doaa Nassan</a>
+
+        <input type="checkbox" id="nav__toggler">
+        <label for="nav__toggler" class="nav__toggle">
+        <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">Experience</a>
+          </li>
+
+
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Portfolio</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__small">Hello</span>
+            <h1 class="home__title">
+              <span>I'm</span>Doaa Nassan<br/>
+               a  <span class="txt-rotate" data-period="2000" data-rotate='["Developer."]'>
+                <span class="wrap"></span>
+              </span>
+              </h1>
+
+              <p class="home__description">
+              Fifth-year Informatics Engineering student specializing in Back-End Development with Laravel. 
+              Experienced in building REST APIs, database design, and scalable web applications.
+              </p>
+
+              <div class="home__btns">
+                <a href="#contact" class="btn">Hire Me</a>
+              </div>
+          </div>
+
+          <div class="home__img--wrapper">
+            <img src="assets/img/profile.png" alt="" class="home__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="home__img--wrapper">
+            <img src="assets/img/profile.png" alt="" class="home__img" />
+          </div>
+          <div class="about__content">
+            <h2 class="section__title" data-title="Who am I ?">
+              I'm Doaa Nassan, a Back-End Developer Using Laravel
+            </h2>
+            <p class="about__description">
+              Informatics Engineering student with academic experience in Laravel development. 
+              Passionate about creating efficient server-side solutions with Laravel, designing databases, 
+              and building RESTful APIs for web applications.
+            </p>
+            <ul class="about__data grid">
+              <li class="data__item">
+                <h3 class="data__title">Name:</h3>
+                <span class="data__description">Doaa Nassan</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Age:</h3>
+                <span class="data__description">24 Years</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">From</h3>
+                <span class="data__description">Damascus, Syria</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Email</h3>
+                <a href="doaanassan2002@gmail.com" class="data__description about__link">doaanassan2002@gmail.com</a>
+              </li>
+             <li class="data__item">
+                <h3 class="data__title">Phone</h3>
+                <span class="data__description">+963 932 989 059</span>
+              </li>
+              <li class="data__item">
+                <h3 class="data__title">Education</h3>
+                <span class="data__description">5th Year Informatics Engineering - Damascus University</span>
+              </li> 
+            </ul>
+
+            <div class="about__bottom">
+
+              <div class="about__social-links">
+                <a href="https://github.com/doaanassan2002" class="about__social-link">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/doaanassan2002" class="about__social-link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/doaanassan2002/" class="about__social-link">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="My Journey">Experience & Education</h2>
+
+        <div class="resume__container container grid">
+          <div class="resume__group">
+            <h3 class="resume__heading">Education</h3>
+
+            <div class="resume__items">
+              <br/>
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Damascus University</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__data-title">
+                    <h3 class="resume__title">Informatics Engineering</h3>
+                    <span class="resume__date">2021 - Present</span>
+                  </div>
+                  <p class="resume__description">
+                    Fifth year student specializing in software development with focus on Laravel and back-end technologies <br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="resume__group">
+            <h3 class="resume__heading">Technical Experience</h3>
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="align-center">
+                  <h3 class="resume__subtitle">Laravel Back-End Developer</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__data-title">
+                    <h3 class="resume__title">Academic Experience (2023-2025)</h3>
+                  </div>
+                  <p class="resume__description">
+                    • Developed 3 Laravel projects with MySQL databases<br>
+                    • Designed databases using Eloquent ORM relationships<br>
+                    • Created and documented REST APIs for frontend integration<br>
+                    • Built Laravel notification systems<br>
+                    • Implemented user authentication and permission management<br>
+                    • Optimized Laravel applications with Validation & Middleware<br>
+                    • Used Git/GitLab for Laravel project version control<br>
+                    • Design Patterns Application
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="services section" id="projects">
+        <h2 class="section__title title-center" data-title="Projects">My Laravel Projects</h2>
+
+        <div class="Services__container container grid">
+          <div class="services__item">
+            <i class="fa-brands fa-laravel services__icon"></i>
+            <h3 class="services__title">Restaurant Management System</h3>
+            <p class="services__description">
+              Full Laravel project with menu management, order processing, and admin dashboard.
+            </p>
+            <a href="https://gitlab.com/doaanassan2002/res" class="services__link" target="_blank">View on GitLab</a>
+            <span class="services__no">01</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-bell services__icon"></i>
+            <h3 class="services__title">Laravel Notification System</h3>
+            <p class="services__description">
+              Laravel-based notification system for ACM with real-time updates and user management.
+            </p>
+            <span class="services__no">02</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-database services__icon"></i>
+            <h3 class="services__title">University Laravel Projects</h3>
+            <p class="services__description">
+              Multiple academic projects using Laravel focusing on database design and REST API development.
+            </p>
+            <span class="services__no">03</span>
+          </div>
+        </div>
+      </section>
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title title-center" data-title="Technical Skills">Laravel & Back-End Skills</h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Laravel Framework</h3>
+              <span class="skills__no">85%</span>
+            </div>
+            <p class="skills__description">
+              Experienced in Laravel with Eloquent ORM, Middleware, MVC architecture, and Blade templates.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">PHP Development</h3>
+              <span class="skills__no">85%</span>
+            </div>
+            <p class="skills__description">
+              Proficient in PHP OOP, design patterns, and server-side scripting for web applications.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">MySQL Database</h3>
+              <span class="skills__no">80%</span>
+            </div>
+            <p class="skills__description">
+              Database design, normalization, query optimization, and integration with Laravel.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 80%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">REST API Development</h3>
+              <span class="skills__no">80%</span>
+            </div>
+            <p class="skills__description">
+              Designing and implementing RESTful APIs with Laravel, authentication, and documentation.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 80%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Git / GitLab</h3>
+              <span class="skills__no">75%</span>
+            </div>
+            <p class="skills__description">
+              Version control for Laravel projects, branching, and collaborative development.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 75%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Problem Solving</h3>
+              <span class="skills__no">85%</span>
+            </div>
+            <p class="skills__description">
+              Debugging Laravel applications, optimizing performance, and solving complex back-end challenges.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="GET IN TOUCH">Contact Me</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__details">
+            <div class="contact__item">
+              <i class="fa-solid  fa-phone contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Call us</h3>
+              <span class="contact__data">+963 932 989 059</span>
+            </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid  fa-envelope contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Email us</h3>
+              <span class="contact__data">doaanassan2002@gmail.com</span>
+            </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid  fa-location-dot contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Address</h3>
+              <span class="contact__data">Damascus, Syria</span>
+            </div>
+            </div>
+            <div class="contact__item">
+              <i class="fa-brands fa-github contact__icon"></i>
+              <div>
+                <h3 class="contact__title">GitHub</h3>
+                <a href="https://github.com/doaanassan2002" class="contact__data" target="_blank">github.com/doaanassan2002</a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact__form" action="https://formspree.io/f/meqyldaz" method="POST">
+            <div class="form__group">
+              <label class="form__input">
+                <input type="text" placeholder="Your Name" name="name" class="input__control" required/>
+              </label>
+              <label class="form__input">
+                <input type="email" placeholder="Your Email" name="email" class="input__control" required/>
+              </label>
+            </div>
+            <label class="form__input">
+              <input type="text" placeholder="Subject" name="subject" class="input__control" required/>
+            </label>
+            <label class="form__input">
+              <textarea name="message" cols="30" rows="10" class="input__control textarea" placeholder="Your Message" required></textarea>
+            </label>
+            <button class="btn contact__btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+
+ 
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__copyright">&copy; 2026 Doaa Nassan</p>
+
+        <div class="footer__social-links">
+          <a href="https://github.com/doaanassan2002" class="footer__social-link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="https://www.instagram.com/doaanassan2002" class="footer__social-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+
+          <a href="https://www.linkedin.com/in/doaanassan2002/" class="footer__social-link">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
